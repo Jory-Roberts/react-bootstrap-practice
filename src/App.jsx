@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './custom.scss';
+import Form from './components/Form';
 
 function App() {
     const [count, setCount] = useState(0);
@@ -23,6 +24,7 @@ function App() {
                 </a>
             </div>
             <h1>Vite + React</h1>
+            <Form />
             <div className="card">
                 <button
                     className="btn btn-primary"
